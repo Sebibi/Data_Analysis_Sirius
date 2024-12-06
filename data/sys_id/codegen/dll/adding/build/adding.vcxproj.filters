@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\adding_initialize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\adding_terminate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\adding.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\adding.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BF55B71C-4C71-377F-BF97-69D9EF06E5CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

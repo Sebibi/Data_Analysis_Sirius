@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{03D73708-29AA-3064-BDD5-DC1B9C556D1C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>adding</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">adding.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">adding</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">adding.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">adding</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">adding.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">adding</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">adding.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">adding</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id;C:\Program Files\MATLAB\R2023b\extern\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;MODEL=adding;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";adding_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;MODEL=adding;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";adding_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id;C:\Program Files\MATLAB\R2023b\extern\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id;C:\Program Files\MATLAB\R2023b\extern\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\MATLAB\R2023b\bin\win64\cmake\bin\cmake.exe" -E cmake_echo_color --cyan "\#\#\# Created SHARED library: C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build/Debug/adding.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build/Debug/adding.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/adding.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build/Debug/adding.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id;C:\Program Files\MATLAB\R2023b\extern\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MODEL=adding;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";adding_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MODEL=adding;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";adding_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id;C:\Program Files\MATLAB\R2023b\extern\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id;C:\Program Files\MATLAB\R2023b\extern\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\MATLAB\R2023b\bin\win64\cmake\bin\cmake.exe" -E cmake_echo_color --cyan "\#\#\# Created SHARED library: C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build/Release/adding.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build/Release/adding.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/adding.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build/Release/adding.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id;C:\Program Files\MATLAB\R2023b\extern\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MODEL=adding;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";adding_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MODEL=adding;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";adding_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id;C:\Program Files\MATLAB\R2023b\extern\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id;C:\Program Files\MATLAB\R2023b\extern\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\MATLAB\R2023b\bin\win64\cmake\bin\cmake.exe" -E cmake_echo_color --cyan "\#\#\# Created SHARED library: C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build/MinSizeRel/adding.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build/MinSizeRel/adding.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/adding.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build/MinSizeRel/adding.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id;C:\Program Files\MATLAB\R2023b\extern\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MODEL=adding;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";adding_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MODEL=adding;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";adding_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id;C:\Program Files\MATLAB\R2023b\extern\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id;C:\Program Files\MATLAB\R2023b\extern\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\MATLAB\R2023b\bin\win64\cmake\bin\cmake.exe" -E cmake_echo_color --cyan "\#\#\# Created SHARED library: C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build/RelWithDebInfo/adding.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build/RelWithDebInfo/adding.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/adding.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build/RelWithDebInfo/adding.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\MATLAB\R2023b\bin\win64\cmake\bin\cmake.exe" -SC:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding -BC:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build --check-stamp-file C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\CMakeFiles\3.25.0\CMakeCCompiler.cmake;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\CMakeFiles\3.25.0\CMakeCXXCompiler.cmake;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\CMakeFiles\3.25.0\CMakeRCCompiler.cmake;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\CMakeFiles\3.25.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\MATLAB\R2023b\bin\win64\cmake\bin\cmake.exe" -SC:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding -BC:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build --check-stamp-file C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\CMakeFiles\3.25.0\CMakeCCompiler.cmake;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\CMakeFiles\3.25.0\CMakeCXXCompiler.cmake;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\CMakeFiles\3.25.0\CMakeRCCompiler.cmake;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\CMakeFiles\3.25.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\MATLAB\R2023b\bin\win64\cmake\bin\cmake.exe" -SC:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding -BC:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build --check-stamp-file C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\CMakeFiles\3.25.0\CMakeCCompiler.cmake;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\CMakeFiles\3.25.0\CMakeCXXCompiler.cmake;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\CMakeFiles\3.25.0\CMakeRCCompiler.cmake;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\CMakeFiles\3.25.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\MATLAB\R2023b\bin\win64\cmake\bin\cmake.exe" -SC:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding -BC:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build --check-stamp-file C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\MATLAB\R2023b\bin\win64\cmake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\CMakeFiles\3.25.0\CMakeCCompiler.cmake;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\CMakeFiles\3.25.0\CMakeCXXCompiler.cmake;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\CMakeFiles\3.25.0\CMakeRCCompiler.cmake;C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\CMakeFiles\3.25.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\adding_initialize.c" />
+    <ClCompile Include="C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\adding_terminate.c" />
+    <ClCompile Include="C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\adding.c" />
+    <None Include="C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\adding.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\sebas\OneDrive\Documents\EPFLRT\EPFLRT-Data-Fetcher\data\sys_id\codegen\dll\adding\build\ZERO_CHECK.vcxproj">
+      <Project>{E36C6B74-85C6-3665-B67D-F66FFA53E170}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,56 @@
+{
+    "0": {
+        "description": "Premier run de la journée, rien de spécial",
+        "driver": "Thomas",
+        "flag": null,
+        "weather": "Dry"
+    },
+    "1": {
+        "description": "Test antiAMS: comportement instable au freinage, beaucoup d'accoups",
+        "driver": "Thomas",
+        "flag": "VD",
+        "weather": "Dry"
+    },
+    "2": {
+        "description": "Run interrompu car bruit bizarre des gearbox",
+        "driver": null,
+        "flag": "MS",
+        "weather": "Dry"
+    },
+    "3": {
+        "description": "Run normal après avoir démonté et remonté les gearbox",
+        "driver": null,
+        "flag": null,
+        "weather": "Dry"
+    },
+    "4": {
+        "description": "Run interrompu car cable encodeur FR mort ",
+        "driver": null,
+        "flag": "PE",
+        "weather": "Dry"
+    },
+    "5": {
+        "description": "Roulage RWD avec beaucoup de spin à l'arrière",
+        "driver": "Cyran",
+        "flag": null,
+        "weather": "Dry"
+    },
+    "6": {
+        "description": "Test logic launch control",
+        "driver": "Cyran",
+        "flag": null,
+        "weather": "Dry"
+    },
+    "7": {
+        "description": "Voiture passée en propulsion, test du launch control (quel couple moteur minimum pour faire bouger la voiture)",
+        "driver": "Cyran",
+        "flag": null,
+        "weather": "Dry"
+    },
+    "8": {
+        "description": "DV, problème moteur, regen invoulu",
+        "driver": "Cyran",
+        "flag": "PE",
+        "weather": "Dry"
+    }
+}

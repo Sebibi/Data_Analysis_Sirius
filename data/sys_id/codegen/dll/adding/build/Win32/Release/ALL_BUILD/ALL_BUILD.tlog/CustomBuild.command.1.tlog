@@ -1,0 +1,10 @@
+^C:\USERS\SEBAS\ONEDRIVE\DOCUMENTS\EPFLRT\EPFLRT-DATA-FETCHER\DATA\SYS_ID\CODEGEN\DLL\ADDING\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\MATLAB\R2023b\bin\win64\cmake\bin\cmake.exe" -SC:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding -BC:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build --check-stamp-file C:/Users/sebas/OneDrive/Documents/EPFLRT/EPFLRT-Data-Fetcher/data/sys_id/codegen/dll/adding/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
